@@ -1,0 +1,99 @@
+body{
+    color:white;
+    font-size:15px;
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgb(5, 5, 5);
+}
+
+#content{
+    height:auto;
+    width:80%;
+    margin-top:18px;
+    margin-left:150px;
+    position:relative;
+    text-align:center;
+    border-radius:20px;
+    background-color:rgb(16, 16, 16);
+}
+
+#headerContect{
+    position:relative;
+    padding:20px;
+    border-radius:15px;
+    background-color:rgb(16, 16, 16)
+}
+.headerSchoolName{
+    color:white;
+    position:absolute;
+    top:43px;
+    left:90px;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#headerMenu{
+    top:43px;
+    display:inline-block;
+    margin-left:40.5%;
+    position:absolute;
+}
+.menuHeader{
+    padding:5px;
+    color:white;
+    border:2px solid rgb(27, 116, 218);
+    border-radius:8px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:16px;
+    background-color:rgb(17, 104, 203);
+    text-decoration:none;
+}
+.menuHeader:hover{
+    background-color:rgb(11, 86, 171);
+    border-radius:7px;
+}
+
+#formHeader{
+    text-align:center;
+    border-radius:10px;
+    padding:5px;
+    background-color:rgb(36, 36, 36);
+}
+#buttonForm{
+    color:white;
+    cursor:pointer;
+    border:2px solid rgb(27, 116, 218);
+    background-color:rgb(17, 104, 203);
+    margin-top:-7px;
+    border-radius:10px;
+}
+.logo{
+	width:50px;
+	height:50px;
+}
+
+table{
+    text-align:center;
+    background-color:rgb(21, 21, 21);
+}
+th{
+    padding:10px;
+    border:1px solid rgb(36, 36, 36);
+}
+tr{
+    background-color:rgb(36, 36, 36);
+}
+td{
+    background-color:rgb(26, 26, 26)
+}
+
+#footer{
+    color:white;
+    padding:10px;
+    margin-top:18px;
+    font-size:13px;
+    text-align:center;
+    position:relative;
+    text-decoration:none;
+    background-color:rgb(16, 16, 16);
+    font-family:Verdana, Arial, Times New Roman, sans-serif;
+}
