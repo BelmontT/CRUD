@@ -1,0 +1,49 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Venha conhecer a melhor Escola de Promação agora mesmo!">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link rel="stylesheet" type="text/css" href="../layout/css/style.css">
+        <script src="../layout/css/java.js"></script>
+        <link rel="icon" type="image/x-icon" href="../favicon.ico">
+        <title>Panelinha</title>
+    </head>
+    <header>
+        <div id="headerContect">
+            <a href="../index.html"><img src="../layout/images/logo.png" class="logo" title="Belmont School"></a><div class="headerSchoolName">Panelinha</div>
+            <div id="headerMenu">
+                <a href="register.html" class="menuHeader">Registrar</a>
+                <a href="students_list.html" class="menuHeader">Lista</a>
+            </div>
+        </div>
+    </header>
+    <body>
+        <div id="content">
+    <a href="../index.html"><img src="../layout/images/logo.png" class="logo"></a>
+    <center><p>Panelinha</p><center><br>
+    <form action="register_completed.html" method="POST" onsubmit="return getPassw('passw', 'con_passw');">
+            <div id="formHeader">Nome</div>
+            <input type="text" name="name" id="name" placeholder="Nome completo" required><br>
+            
+            <div id="formHeader">E-mail</div>
+            <input type="email" name="email" placeholder="Seu melhor e-mail" required><br>
+            
+            <div id="formHeader">Telefone</div>
+            <input type="number" name="phone" placeholder="Insira seu telefone" required><br>
+            
+            <div id="formHeader">Data de Nascimento</div>
+            <input type="date" name="date_of_birth" placeholder="Data de nascimento" required><br>
+            
+            <div id="formHeader">Senha</div>
+            <input type="password" name="passw" id="passw" placeholder="Sua senha" required><br>
+            
+            <div id="formHeader">Confirmar Senha</div>
+            <input type="password" name="con_passw" id="con_passw" placeholder="Confirmar senha" required><br><br>
+            <button type="submit" id="buttonForm">Enviar</button>
+        </form>
+</div>
+    </body>
+    <div id="footer">
+        © Todos os direitos reservados.<br>
+    </div>
+</html>
